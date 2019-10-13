@@ -1845,6 +1845,10 @@ pre code {
   color: #6c757d;
   opacity: 1; }
 
+.form-control::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1; }
+
 .form-control:-ms-input-placeholder {
   color: #6c757d;
   opacity: 1; }
@@ -3948,8 +3952,10 @@ tbody.collapse.show {
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
+    -moz-column-count: 3;
     column-count: 3;
     -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
     column-gap: 1.25rem; }
   .card-columns .card {
     display: inline-block;
@@ -4959,7 +4965,7 @@ button.close {
   -webkit-transform: translateX(0);
   transform: translateX(0); }
 
-@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+@supports (transform-style: preserve-3d) {
   .carousel-item-next.carousel-item-left, .carousel-item-prev.carousel-item-right {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
@@ -4968,7 +4974,7 @@ button.close {
   -webkit-transform: translateX(100%);
   transform: translateX(100%); }
 
-@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+@supports (transform-style: preserve-3d) {
   .active.carousel-item-right, .carousel-item-next {
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0); } }
@@ -4977,7 +4983,7 @@ button.close {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%); }
 
-@supports ((-webkit-transform-style: preserve-3d) or (transform-style: preserve-3d)) {
+@supports (transform-style: preserve-3d) {
   .active.carousel-item-left, .carousel-item-prev {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0); } }
