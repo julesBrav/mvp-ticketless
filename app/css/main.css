@@ -7760,13 +7760,9 @@ footer {
     font-weight: bold;
     font-size: 21px;
     line-height: normal;
-    color: #f72948;
+    color: #1b83f8;
     margin-top: 10px;
     margin-bottom: 15px; }
-    .card-content > .title.-agate {
-      color: #6553fc; }
-    .card-content > .title.-coral {
-      color: #1b83f8; }
   .card-content > .content {
     font-style: normal;
     font-weight: normal;
