@@ -1,11 +1,3 @@
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
-# Template Giveaway
-
-[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
-
-Template Giveaway is a free landing page for launching your your next startup! It's packed with [HTML5 Boilerplate](https://html5boilerplate.com), [Travis Neilson's DevTips StarterKit](https://github.com/DevTips/DevTips-Starter-Kit) and [Zell Liew's Gulp](http://zellwk.com/blog/gulp-tutorial/) goodness.
 
 ## Quick start
 
