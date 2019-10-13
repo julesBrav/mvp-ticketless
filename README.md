@@ -1,16 +1,3 @@
-
-## Quick start
-
-How To Use:
-
-1.  Clone the git repo — `git clone https://github.com/r4in/alpha-boilerplate.git`
-
-2.  Install all node dependencies with `npm install --save-dev`. I'm using Gulp as my primary task runner for autotomating stuff around.
-
-3.  All source files are the the app folder. This will be your workspace and to begin, open the terminal and `gulp watch` to activate sass & livereload.
-
-4.  To prepare your code for deployment, run `gulp build` to export everything to the dist folder.
-
 ## Features
 
 - Jam packed with [`HTML5`](https://html5boilerplate.com/) goodness.
